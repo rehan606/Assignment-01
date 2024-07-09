@@ -1,0 +1,122 @@
+/* Azeret mono Font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+}
+
+/*========Common CSS Start========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paragraph-font{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+}
+.heading-font{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.content-title-font{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 24px;
+}
+/*========Common CSS End========*/
+
+
+/*========Header CSS Start========*/
+.header-top{
+    width: 1140px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.header-top .logo{
+    font-size: 28px;
+    font-weight: 800;
+}
+.header-top .btn{
+    padding: 20px;
+    border: 1px solid #0D1321;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-container{
+    height: 650px;
+    width: 100%;
+    background-image: url(../images/Hero-bg.png);
+    background-position: center;
+}
+.banner-container .banner-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+    margin: 0 150px;
+}
+.banner-container .banner-content img{
+    margin-bottom: 32px;
+}
+.banner-container .banner-content .banner-title{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.banner-container .banner-content .description{
+    text-align: center;
+    margin-bottom: 32px;
+
+}
+.banner-container .banner-content .btn{
+    padding: 20px 30px;
+    background-color: #0D1321;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+/*========Header CSS End========*/
+
+
+/*========Carrier CSS Start========*/
+
+.carrier {
+    width: 1140px; 
+    height: 1390px;
+    margin: 0 auto;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+}
+.carrier .carrier-header{
+    text-align: center;
+    padding-top: 80px;
+}
+.carrier .carrier-header p{
+    margin-bottom: 48px;
+    padding: 0 140px;
+}
+
+/*========Carrier CSS End========*/
+
+
+/*========Common CSS Start========*/
+/*========Common CSS End========*/
+/*========Common CSS Start========*/
+/*========Common CSS End========*/
