@@ -193,10 +193,10 @@
 /*========Target CSS Start========*/
 .target {
     width: 1140px; 
-    height: 778px;
+    /* height: 778px; */
     margin: 0 auto;
     margin-top: 74px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .target .target-header{
     text-align: center;
@@ -247,7 +247,51 @@
 /*========Target CSS End========*/
 
 
-/*========Common CSS Start========*/
-/*========Common CSS End========*/
+/*========Next Target CSS Start========*/
+.next-target .items{
+    
+    border: 1px solid #0d132134;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    
+}
+.next-target .items .item-content{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    gap: 30px;
+}
+.next-target .items .item-content .item-image{
+    width: 15%;
+    /* height: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .next-target .items .item-content .item-image img{
+    width: 100%;
+    margin-top: 30px;
+} */
+.next-target .items .item-box{
+    width: 85%;
+}
+.next-target .items .item-content .item-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.next-target .items .item-content .item-box p {
+    margin-bottom: 24px;
+}
+.next-target .items .item-content .item-box button {
+    padding: 20px 30px;
+    background-color: #61DAFB;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/*========Next Target CSS End========*/
 /*========Common CSS Start========*/
 /*========Common CSS End========*/
