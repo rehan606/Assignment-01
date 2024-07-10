@@ -34,6 +34,9 @@
 
 
 /*========Header CSS Start========*/
+.header-top-wrap{
+    background-color: #3A4AC3;
+}
 .header-top{
     width: 1140px;
     height: 100px;
@@ -41,18 +44,24 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    
+}
+.header-top a{
+    text-decoration: none;
 }
 .header-top .logo{
     font-size: 28px;
     font-weight: 800;
+    color: #ffffff;
 }
 .header-top .btn{
-    padding: 20px;
+    padding: 20px ;
     border: 1px solid #0D1321;
     background-color: #ffffff;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .banner-container{
@@ -86,11 +95,14 @@
 
 }
 .banner-container .banner-content .btn{
-    padding: 20px 30px;
-    background-color: #0D1321;
+    padding: 20px 40px;
+    background-color: #3A4AC3;
     border-radius: 5px;
     border: none;
     color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /*========Header CSS End========*/
@@ -281,7 +293,7 @@
 }
 .next-target .items .item-content .item-box button {
     padding: 20px 30px;
-    background-color: #61DAFB;
+    background-color: #3A4AC3;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -303,10 +315,10 @@
 .support .head{
     padding-top: 50px !important;
 }
-.support h2{
+.support h2 {
     color: #ffffff !important ;
 }
-.support p{
+.support p {
     color: #ffffff !important ;
 }
 
@@ -330,5 +342,27 @@
 }
 /*========Support CSS End========*/
 
-/*========Common CSS Start========*/
-/*========Common CSS End========*/
+/*========Footer CSS Start========*/
+
+#footer{
+    background-color: #3A4AC3;
+}
+#footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#footer .footer-container .footer-left p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+#footer .footer-container .footer-right{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+/*========Footer CSS End========*/
