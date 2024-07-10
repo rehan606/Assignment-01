@@ -268,10 +268,7 @@
     justify-content: center;
     align-items: center;
 }
-/* .next-target .items .item-content .item-image img{
-    width: 100%;
-    margin-top: 30px;
-} */
+
 .next-target .items .item-box{
     width: 85%;
 }
@@ -293,5 +290,45 @@
     cursor: pointer;
 }
 /*========Next Target CSS End========*/
+
+/*========Support CSS Start========*/
+.support{
+    
+    background-image: url(../images/handshake.jpg) ;
+    height: 330px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.support .head{
+    padding-top: 50px !important;
+}
+.support h2{
+    color: #ffffff !important ;
+}
+.support p{
+    color: #ffffff !important ;
+}
+
+.support .form input{
+    width: 500px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.support .form button{
+    
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #61DAFB;
+}
+/*========Support CSS End========*/
+
 /*========Common CSS Start========*/
 /*========Common CSS End========*/
