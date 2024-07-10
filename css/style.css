@@ -188,6 +188,66 @@
     
     border-radius: 20px;
 }
-/*========Inspiration CSS End========*/
+/*========InspiTaration CSS End========*/
+
+/*========Target CSS Start========*/
+.target {
+    width: 1140px; 
+    height: 778px;
+    margin: 0 auto;
+    margin-top: 74px;
+    margin-bottom: 150px;
+}
+.target .target-header{
+    text-align: center;
+    padding-top: 80px;
+}
+.target .target-header p{
+    margin-bottom: 48px;
+    padding: 0 140px;
+}
+.target .card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.card-box .card{
+    width: 364px;
+    height: 299px;
+    border-radius: 15px;
+}
+.card-box .card .card-content{
+    margin: 30px;
+}
+.card-box .card-1{
+    background-color: #FFF6F4;
+    
+}
+.card-box .card-2{
+    background-color: #F2F6FE;
+    
+}
+.card-box .card-3{
+    background-color: #FFFDF2;
+    
+}
+.card-box .card .card-content h4{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0 8px;
+}
+.card-box .card .card-content p{
+    margin-bottom: 25px;
+}
+.card-box .card .card-content a{
+    font-size: 16px;
+    font-weight: 700;
+}
+/*========Target CSS End========*/
+
+
+/*========Common CSS Start========*/
+/*========Common CSS End========*/
 /*========Common CSS Start========*/
 /*========Common CSS End========*/
