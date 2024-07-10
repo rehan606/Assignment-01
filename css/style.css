@@ -76,7 +76,7 @@
     align-items: center;
     width: 1140px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px;
 }
 .banner-container .banner-content img{
     margin-bottom: 32px;
@@ -140,7 +140,8 @@
     border-radius: 15px;
     padding: 48px;
     margin-bottom: 30px;
-    border: 3px solid #fff
+    border: 3px solid #fff;
+    box-shadow: 0px 11px 14px -9px rgba(0,0,0,0.42);
 }
 .carrier .item-2{
     
@@ -175,7 +176,7 @@
     width: 1140px; 
     height: 778px;
     margin: 0 auto;
-    margin-top: 74px;
+    /* margin-top: 74px; */
     margin-bottom: 150px;
 }
 .inspiration .inspiration-header{
@@ -196,6 +197,7 @@
     padding: 20px;
     border-radius: 20px;
     border: 1px solid #0d13211a;
+    box-shadow: 0px 11px 14px -9px rgba(0,0,0,0.42);
 }
 .inspiration .video-content iframe{
     
@@ -227,8 +229,9 @@
 }
 .card-box .card{
     width: 364px;
-    height: 299px;
     border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 11px 14px -9px rgba(0,0,0,0.42);
 }
 .card-box .card .card-content{
     margin: 30px;
@@ -266,13 +269,14 @@
     border: 1px solid #0d132134;
     border-radius: 15px;
     margin-bottom: 25px;
-    
+    box-shadow: 0px 11px 14px -9px rgba(0,0,0,0.42);
 }
 .next-target .items .item-content{
     display: flex;
     align-items: center;
     margin: 30px;
     gap: 30px;
+    
 }
 .next-target .items .item-content .item-image{
     width: 15%;
@@ -312,6 +316,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 15px;
+    box-shadow: 0px 11px 14px -9px rgba(0,0,0,0.42);
 }
 .support .head{
     padding-top: 50px !important;
